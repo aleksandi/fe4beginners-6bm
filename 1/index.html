@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>6BM Official Website</title>
+	<title>Strona zespołu 6BM</title>
 	<link href="main.css" rel="stylesheet">
 </head>
 <body>
 	<header>
 		<section id="menu">
-			<div><img src="./img/logo.png"></div>
+			<h1><img src="./img/logo.png"></h1>
 			<nav>
 				<ul class="navigation">
 					<li><a href="#members">HOME</a></li>
@@ -23,106 +23,136 @@
 	<div class="content">
 		<section id="members">
 			<div>
-				<ul class="band-members">
-					<li>
-						<img src="./img/band-member01.png"/>
-						<p class="band-members__name">Kamil Zgondek</p>
-						<p class="band-members__desc">Keyboard</p>
-					</li>
-					<li>
-						<img src="./img/band-member02.png"/>
-						<p class="band-members__name">Łukasz Furman</p>
-						<p class="band-members__desc">Vocals</p>
-					</li>
-					<li>
-						<img src="./img/band-member03.png"/>
-						<p class="band-members__name">Kamil Majewski</p>
-						<p class="band-members__desc">Drums</p>
-					</li>
-					<li>
-						<img src="./img/band-member04.png"/>
-						<p class="band-members__name">Daniel Cajzer</p>
-						<p class="band-members__desc">Bass guitar</p>
-					</li>
-				</ul>		
+				<img src="./img/band-member01.png"/>
+				<p class="band-members_name">Kamil Zgondek</p>
+				<p class="band-members_desc">Keys</p>
 			</div>
-		</section>	
-		<section id="about">
-			<h1>About</h1>
-			<div><img src="./img/band01.jpg"></div>
 			<div>
-				<p> 6BM is a young band which has it's origins in the city of Lublin, playing music described as electrorock.<br/>
-					Band members aim to convey emotions, reflexion but also hope.<br/><br/>
-					They are inspired by various genres, like: alternative rock, nu-metal, synthwave or even drum'n'bass.<br/>
-					As for now they released their debut EP - TRINITY and they started working on their first full length album.
-				</p>    
-			</div>    
+				<img src="./img/band-member02.png"/>
+				<p class="band-members_name">Łukasz Furman</p>
+				<p class="band-members_desc">Vocals</p>
+			</div>
+			<div>
+				<img src="./img/band-member03.png"/>
+				<p class="band-members_name">Kamil Majewski</p>
+				<p class="band-members_desc">Drums</p>
+			</div>
+			<div>
+				<img src="./img/band-member04.png"/>
+				<p class="band-members_name">Daniel Cajzer</p>
+				<p class="band-members_desc">Bass guitar</p>
+			</div>			
+		</section>
+		<section id="about">
+			<h2>About</h2>
+			<div class="box">
+				<img src="./img/band01.jpg">
+				<div id="about-text">
+					<h3>Straight from Lublin</h3>
+					<p class="about">
+						6BM is a young band which has it's origins in the city of Lublin, playing music described as electrorock.<br/>
+						Band members aim to convey emotions, reflexion but also hope.<br/><br/>
+						They are inspired by various genres, like: alternative rock, nu-metal, synthwave or even drum'n'bass.<br/>
+						As for now they released their debut EP - TRINITY and they started working on their first full length album.
+					</p>
+				</div>
+			</div>
 		</section>
 		<section id="concerts">
-			<h1>Concerts</h1>
-			<div>
-				<img src="./img/band02_WiechnikMarcin.jpg">
-				<p class="concerts_date">20.12.2018</p>
-				<p class="concerts_location">Lublin, klub XXX</p>
-				<button class="button">BUY TICKET</button>
+			<h2>Concerts</h2>
+			<div class="box">
+				<div class="concert-box">
+					<img src="./img/band02_WiechnikMarcin.jpg">
+					<div class="concert-details">
+						<div>
+							<p class="concerts_date">20.12.2018</p>
+							<p class="concerts_location">Lublin, klub XXX</p>
+						</div>
+						<div>
+							<button class="button">BUY TICKET</button>
+						</div>
+					</div>
+				</div>
+				<div class="concert-box">
+					<img src="./img/band03_WiechnikMarcin.jpg">
+					<div class="concert-details">
+						<div>
+							<p class="concerts_date">20.12.2018</p>
+							<p class="concerts_location">Warszawa, klub YYY</p>
+						</div>
+						<div>
+							<button class="button">BUY TICKET</button>
+						</div>
+					</div>
+				</div>	
+				<div class="concert-box">
+					<img src="./img/band04_JakubBodys.jpg">
+					<div class="concert-details">
+						<div>
+							<p class="concerts_date">20.12.2018</p>
+							<p class="concerts_location">Kraków, klub ZZZ</p>
+						</div>
+						<div>
+							<button class="button">BUY TICKET</button>
+						</div>
+					</div>
+				</div>	
+				<div class="concert-box">
+					<img src="./img/band05_JakubBodys.jpg">
+					<div class="concert-details">
+						<div>
+							<p class="concerts_date">20.12.2018</p>
+							<p class="concerts_location">Poznań, klub AAA</p>
+						</div>
+						<div>
+							<button class="button">BUY TICKET</button>
+						</div>
+					</div>
+				</div>
 			</div>	
-			<div>
-				<img src="./img/band03_WiechnikMarcin.jpg">
-				<p class="concerts_date">20.12.2018</p>
-				<p class="concerts_location">Warszawa, klub YYY</p>
-				<button class="button">BUY TICKET</button>
+		</section>
 
-			</div>	
-			<div>
-				<img src="./img/band04_JakubBodys.jpg">
-				<p class="concerts_date">20.12.2018</p>
-				<p class="concerts_location">Kraków, klub ZZZ</p>
-				<button class="button">BUY TICKET</button>
-			</div>	
-			<div>
-				<img src="./img/band05_JakubBodys.jpg">
-				<p class="concerts_date">20.12.2018</p>
-				<p class="concerts_location">Poznań, klub AAA</p>
-				<button class="button">BUY TICKET</button>
-			</div>	
-		</section>
 		<section id="video">
-			<h1>Video</h1>
-			<iframe width="853" height="480" src="https://www.youtube.com/embed/AstRXh-vKNI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			<h2>Video</h2>
+			<iframe width="798" height="480" src="https://www.youtube.com/embed/AstRXh-vKNI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 		</section>
+
 		<section id="photos">
-			<h1>Photos</h1>
-			<div>
-				<ul class="gallery">
-					<li><img src="./img/band05_JakubBodys.jpg"></li>
-					<li><img src="./img/band06_JakubBodys.jpg"></li>
-					<li><img src="./img/band07.jpg"></li>
-					<li><img src="./img/band08.jpg"></li>
-					<li><img src="./img/band09.jpg"></li>
-					<li><img src="./img/band10.jpg"></li>
-					<li><img src="./img/band11.jpg"></li>
-					<li><img src="./img/band04_JakubBodys.jpg"></li>
-					<li><img src="./img/band03_WiechnikMarcin.jpg"></li>
-				</ul>
-			</div> 
+			<h2>Photos</h2>
+			<div class="box">
+				<img src="./img/band05_JakubBodys.jpg">
+				<img src="./img/band06_JakubBodys.jpg">
+				<img src="./img/band07.jpg">
+				<img src="./img/band08.jpg">
+				<img src="./img/band09.jpg">
+				<img src="./img/band10.jpg">
+				<img src="./img/band11.jpg">
+				<img src="./img/band04_JakubBodys.jpg">
+				<img src="./img/band03_WiechnikMarcin.jpg">
+			</div>
 		</section>
+
 		<section id="contact">
-			<h1>Contact</h1>
-			<div><img src="./img/band09.jpg"></div>
-			<address>
-				Tel. 00 48 999 00 00<br>
-				e-mail: 6bmband@mail.mail
-			</adress>	
+			<h2>Contact</h2>
+			<div class="box">
+				<img src="./img/band12.jpg">
+				<div id="adres">
+					<address>
+						Tel. 00 48 999 00 00<br>
+						e-mail: 6bmband@mail.mail
+					</adress>	
+				</div>	
+			</div>			
 			<form action="" method="POST">
-				<label for="mail">Email</label>
+				<label for="mail">Email</label><br/>
 				<input id="mail"/>
 				<br/>
-				<label for="topic">Topic</label>
+				<label for="topic">Topic</label><br/>
 				<input id="topic"/>
 				<br/>
 				<br/>
-				<button type="submit">Contact Us</button>
-			</form>
+				<button type="submit">CONTACT US</button>
+			</form>	
 		</section>
 	</div>
 	<footer>
