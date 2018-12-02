@@ -179,7 +179,7 @@ nav ul a:hover {
 }
 
 #concerts img {
-	width: 350px; 
+	max-width: 25vw; 
 	height: auto;
 	border-bottom: 3px solid #EF008E;
 }
@@ -206,8 +206,8 @@ nav ul a:hover {
 /* PHOTOS */
 
 #photos img {
-	width: 250px; 
-	height: 150px;
+	max-width: 20vw; 
+	height: 10vw;
 	margin-bottom: 20px;
 	border-top: 3px solid #EF008E;
 }
